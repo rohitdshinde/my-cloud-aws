@@ -1,7 +1,7 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const BASE_URL = "http://localhost:3000/api/v1/users";
+const BASE_URL = "http://52.2.208.143:4000/api/v1/users";
 
 export async function addImage(imageObject) {
   const response = await axios.post(`${BASE_URL}/image`, imageObject, {
