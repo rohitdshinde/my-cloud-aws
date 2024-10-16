@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #010015;
+}
+/* #03011c */
+/* 010015 */
+.navbar-brand {
+  color: white !important;
+}
+.nav-link {
+  color: white !important;
+}
+.logo {
+  background: linear-gradient(135deg, #d6249f, #4b0082);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.text-color {
+  background: linear-gradient(135deg, #d6249f, #4b0082);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 1rem;
+  font-weight: bold;
+}
+#title-text {
+  color: rgb(212, 212, 212);
+}
+
+.title {
+  margin-top: -50px;
+}
+
+.btn-color {
+  background-color: #720e9e;
+  color: white;
+  color: linear-gradient(135deg, #d6249f, #4b0082);
+}
+
+.btn-color:hover {
+  background: linear-gradient(135deg, #d6249f, #4b0082);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 1rem;
+}
+.nav-item:hover {
+  background: linear-gradient(135deg, #d6249f, #4b0082);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 1rem;
+}
+
+.footer {
+  background: #010015;
+  color: white;
+}
+
+.card-body {
+  font-family: "Poppins", sans-serif;
+  background: #010015;
+}
+
+.card {
+  border: #010015;
+}
+
+.active {
+  background: linear-gradient(135deg, #d6249f, #4b0082);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 1rem;
+}
+
+/* Pricing Page CSS */
+/* ===== Buttons Css ===== */
+.pricing-style-one .primary-btn {
+  background: var(--primary);
+  color: var(--white);
+  box-shadow: var(--shadow-2);
+}
+.pricing-style-one .active.primary-btn, .pricing-style-one .primary-btn:hover, .pricing-style-one .primary-btn:focus {
+  background: var(--primary-dark);
+  color: var(--white);
+  box-shadow: var(--shadow-4);
+}
+.pricing-style-one .deactive.primary-btn {
+  background: var(--gray-4);
+  color: var(--dark-3);
+  pointer-events: none;
+}
+
+/*===== PRICING STYLE ONE =====*/
+.pricing-one {
+  padding: 100px 0;
+}
+
+.pricing-style-one {
+  box-shadow: var(--shadow-4);
+  padding: 45px 30px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background-color: var(--white);
+  margin-top: 50px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .pricing-style-one {
+    padding: 35px 30px;
+  }
+}
+.pricing-style-one .sub-title {
+  font-size: 16px;
+  color: var(--black);
+  position: relative;
+  padding: 6px 20px;
+  display: inline-block;
+  border: 2px solid var(--primary);
+  border-radius: 30px;
+}
+.pricing-style-one .price {
+  display: block;
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 80px;
+  margin-top: 25px;
+  color: var(--black);
+}
+@media (max-width: 767px) {
+  .pricing-style-one .price {
+    font-size: 45px;
+    margin-top: 16px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .pricing-style-one .price {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+}
+.pricing-style-one .year {
+  color: var(--dark-3);
+  margin-top: 3px;
+}
+.pricing-style-one .pricing-list {
+  margin-top: 40px;
+}
+.pricing-style-one .pricing-list li {
+  color: var(--dark-3);
+  margin-top: 16px;
+}
+.pricing-style-one .pricing-list li i {
+  color: var(--primary);
+  margin-right: 8px;
+}
+.pricing-style-one .pricing-btn {
+  margin-top: 42px;
+}
+.pricing-style-one .bottom-shape {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 101%;
+  z-index: -1;
+}
+
+/* About  */
+
+.about-one {
+  background-color: var(--light-3);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.about-one .about-title {
+  margin-bottom: 20px;
+}
+.about-one .single-about-items {
+  margin-top: 30px;
+  padding: 35px;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: var(--shadow-2);
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.about-one .single-about-items:hover {
+  box-shadow: var(--shadow-4);
+}
+.about-one .single-about-items::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  height: 80px;
+  width: 50px;
+  border: 1px solid var(--primary);
+  border-radius: 0 0 0 30px;
+  right: -1px;
+  top: -1px;
+  opacity: 0.1;
+}
+.about-one .single-about-items::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  height: 40px;
+  width: 40px;
+  border: 1px solid var(--primary);
+  border-radius: 50px;
+  right: 60px;
+  top: 10px;
+  opacity: 0.1;
+}
+.about-one .single-about-items .items-icon {
+  width: 70px;
+  height: 70px;
+  line-height: 85px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: var(--white);
+  color: var(--primary);
+  box-shadow: var(--shadow-2);
+}
+.about-one .single-about-items .items-icon i {
+  font-size: 32px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-one .single-about-items .items-icon {
+    max-width: 90px;
+  }
+}
+@media (max-width: 767px) {
+  .about-one .single-about-items .items-icon {
+    max-width: 80px;
+  }
+}
+.about-one .single-about-items .items-content {
+  margin-top: 32px;
+}
+@media only screen and (min-width: 1400px) {
+  .about-one .single-about-items .items-content {
+    padding-right: 45px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .about-one .single-about-items .items-content {
+    padding-right: 35px;
+  }
+}
+.about-one .single-about-items .items-content .items-title {
+  color: var(--black);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.about-one .single-about-items .items-content .text {
+  color: var(--dark-3);
+}
+
+/* text gradient */
+
+.text-g{
+  background: linear-gradient(135deg, #d6249f, #4b0082);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ERROR */
+
+/* ===== Buttons Css ===== */
+.error-content .primary-btn {
+  background: var(--primary);
+  color: var(--white);
+  box-shadow: var(--shadow-2);
+}
+.error-content .active.primary-btn, .error-content .primary-btn:hover, .error-content .primary-btn:focus {
+  background: var(--primary-dark);
+  color: var(--white);
+  box-shadow: var(--shadow-4);
+}
+.error-content .deactive.primary-btn {
+  background: var(--gray-4);
+  color: var(--dark-3);
+  pointer-events: none;
+}
+
+/*===== ERROR ONE Style =====*/
+.error-content {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.error-content .error-404 {
+  font-size: 98px;
+  font-weight: 600;
+  color: var(--black);
+  line-height: 90px;
+}
+.error-content .sub-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--black);
+  margin-top: 16px;
+}
+.error-content .text {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--dark-3);
+  margin-top: 8px;
+}
+.error-content .error-form {
+  max-width: 410px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: relative;
+}
+.error-content .error-form i {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  font-size: 24px;
+  color: var(--primary);
+}
+.error-content .error-form input {
+  width: 100%;
+  height: 46px;
+  padding-left: 60px;
+  padding-right: 30px;
+  border-radius: 50px;
+  border: 2px solid var(--gray-4);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--dark-3);
+}
+.error-content .error-form input:focus {
+  border-color: var(--primary);
+}
+.error-content .error-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+@media (max-width: 767px) {
+  .error-content .error-btn {
+    position: relative;
+    width: 100%;
+    margin-top: 8px;
+  }
+}
+@media (max-width: 767px) {
+  .error-content .primary-btn {
+    width: 100%;
+  }
+}
